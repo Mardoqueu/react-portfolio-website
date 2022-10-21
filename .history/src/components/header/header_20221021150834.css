@@ -40,8 +40,8 @@ header {
 /* ============ ME  ================ */
 .me{
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    width: 44rem;
+    height: 60rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
