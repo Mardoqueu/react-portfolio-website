@@ -131,8 +131,7 @@ img{
         width: var(--container-width-sm);
     }
 
-    section > h2 {
-        margin-bottom: 2rem;
+    section {
+        margin-top: 6rem;
     }
 }
-

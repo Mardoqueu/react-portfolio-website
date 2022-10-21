@@ -22,7 +22,7 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-ms: 90%;
 }
 
 html{
@@ -98,41 +98,5 @@ a:hover{
 }
 
 .btn:hover{
-    background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
+    bac
 }
-
-.btn-primary{
-    background: var(--color-primary);
-    color: var(--color-bg);
-}
-
-img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
-@media screen and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 6rem;
-    }
-}
-
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
-@media screen and (max-width: 600px){
-    .container{
-        width: var(--container-width-sm);
-    }
-
-    section > h2 {
-        margin-bottom: 2rem;
-    }
-}
-
