@@ -19,9 +19,12 @@ export const App = () => {
         <Experience/>
         <Services/>
         <Portfolio/>
-        <Testimonials/>
+        <Portfolio/>
+
         <Contact/>
         <Footer/>
+        
+
     </>
   )
 }

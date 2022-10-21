@@ -22,6 +22,8 @@ export const App = () => {
         <Testimonials/>
         <Contact/>
         <Footer/>
+        
+
     </>
   )
 }

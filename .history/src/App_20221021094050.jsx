@@ -20,8 +20,11 @@ export const App = () => {
         <Services/>
         <Portfolio/>
         <Testimonials/>
+
         <Contact/>
         <Footer/>
+        
+
     </>
   )
 }
