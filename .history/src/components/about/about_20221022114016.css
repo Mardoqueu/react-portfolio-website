@@ -29,7 +29,7 @@
     transform: rotate(0deg);
 }
 
-.about__cards {
+.about_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
@@ -44,7 +44,7 @@
     transform: var(--transition);
 }
 
-.about__card:hover{
+.about__cards:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;

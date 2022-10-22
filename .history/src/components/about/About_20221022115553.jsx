@@ -9,7 +9,7 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Venha me conhecer</h5>
+      <h5>Conhecer mais</h5>
       <h2>Sobre mim</h2>
 
 
@@ -42,7 +42,7 @@ const About = () => {
               </div>
 
               <p>
-              Iniciei minha carreira como professor de informática no Instituto Federal do Maranhão (IFMA). Essa foi uma ótima experiência, pois desenvolvi habilidades como falar em público, e também aprimorei minha network, aprendi várias stacks como HTML, CSS, JavaScript, Bootstrap, Angular, Java, MySQL, Spring Boot e outros Front-End e tecnologias de back-end. Toda a experiência me levou a me apaixonar por uma carreira onde posso mergulhar na tecnologia e ter sensibilidade realizar impactos sociais positivos no mundo.              
+              As you can see on my Linkedin, I have spent the last 3 years working as an IT developer and teacher. In a typical day, I answer emails and review code, and then I have a quick 10-minute meeting with a project colleague about what I did yesterday, what I'm planning to do today, and if there are any roadblocks holding me back. Right after that, I write some code or first finish any code review comments. I continue coding and also study new courses and articles on Front-End and Back-End.
               </p>
 
               <a href='#contact' className='btn btn-primary'>Entrar em contato</a>

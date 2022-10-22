@@ -44,7 +44,7 @@
     transform: var(--transition);
 }
 
-.about__card:hover{
+.about__cards:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;

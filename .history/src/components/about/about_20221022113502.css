@@ -29,7 +29,7 @@
     transform: rotate(0deg);
 }
 
-.about__cards {
+.about_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
@@ -44,7 +44,7 @@
     transform: var(--transition);
 }
 
-.about__card:hover{
+.about__cards:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
@@ -56,17 +56,12 @@
     margin-bottom: 1rem;
 }
 
-.about__card h5 {
+.about__card h5{
     font-size: 0.95rem;
 }
 
 
-.about__card small {
+.about__card small{
     font-size: 0.7rem;
     color: var(--color-light)
-}
-
-.about__content p{
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
 }
