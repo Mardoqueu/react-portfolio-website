@@ -5,8 +5,10 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {AiOutlinePhone} from 'react-icons/ai'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setactiveNav] = useState('');
   return (
     <nav>
       <a href="#"><AiOutlineHome/></a>

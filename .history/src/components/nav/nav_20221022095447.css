@@ -22,12 +22,3 @@ nav a {
     color: var(--color-light);
     font-size: 1.1rem;
 }
-
-nav a:hover{
-    background: var(--color-light);    
-}
-
-nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
-}

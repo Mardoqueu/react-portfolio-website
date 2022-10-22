@@ -24,10 +24,5 @@ nav a {
 }
 
 nav a:hover{
-    background: var(--color-light);    
-}
-
-nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: rgb(0, 0, 0, 0.3)
 }

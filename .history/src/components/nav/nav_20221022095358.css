@@ -16,18 +16,5 @@ nav{
 
 nav a {
     background: transparent;
-    padding: 0.9rem;
-    border-radius: 50%;
-    display: flex;
-    color: var(--color-light);
-    font-size: 1.1rem;
-}
-
-nav a:hover{
-    background: var(--color-light);    
-}
-
-nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
+    
 }
