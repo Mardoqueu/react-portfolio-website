@@ -53,22 +53,27 @@
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px){
-    .service__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+    .about__container{
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
-    .service{
-        height: auto;
+    .about__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
     }
 
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px){
-    .service__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
     }
+
 
 }
