@@ -32,20 +32,5 @@
 }
 
 .service_list {
-    padding: 1rem;
-}
-
-.service__list li{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.8rem;
-}
-
-.service__list-icon{
-    color: var(--color-primary);
-    margin-top: 2px;
-}
-
-.service__list p{
-    font-size: 0.9rem;
+    padding: 2rem;
 }

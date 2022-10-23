@@ -15,7 +15,7 @@ const Services = () => {
           </div>
               <ul className='service_list'>
                   <li>                  
-                    <p><BsCheck2 className='service__list-icon'/> Graduado em Ciências da Computação</p>
+                    <p><BsCheck2 className='service__list-icon'/> Experiência de trabalho em projetos</p>
                   </li>
               </ul>
               <ul className='service_list'>
@@ -26,9 +26,14 @@ const Services = () => {
               </ul>
               <ul className='service_list'>
                   <li>
-                  <p><BsCheck2 className='service__list-icon'/> Boa lógica de programação </p>
+                  <p><BsCheck2 className='service__list-icon'/> Boa lógica de programação</p>
                   </li>
-              </ul> 
+              </ul>
+              <ul className='service_list'>
+                  <li>
+                  <p><BsCheck2 className='service__list-icon'/> Trabalho bem em equipe</p>
+                  </li>
+              </ul>
               <ul className='service_list'>
                   <li>
                   <p><BsCheck2 className='service__list-icon'/> Experiência em desenvolvimento Front-End Web</p>
@@ -49,7 +54,7 @@ const Services = () => {
           {/*End of this column*/}
           <article className='service'>
           <div className='service__head'>
-            <h3>Como eu posso colaborador? </h3>
+            <h3>Como eu posso colaborador</h3>
           </div>
               <ul className='service_list'>
                   <li>
@@ -80,36 +85,28 @@ const Services = () => {
                   <p><BsCheck2 className='service__list-icon'/> Modelagem de dados, e especificação técnica</p></li>
               </ul>
               <ul className='service_list'>
-                  <li>
-                  <p><BsCheck2 className='service__list-icon'/> Consumo de APIs para integração com os sistemas</p></li>
+                  <li><BsCheck2 className='service__list-icon'/>
+                  <p> Consumo de APIs para integração com os sistemas</p></li>
               </ul>
           </article> 
           {/*End of this column*/}
 
           <article className='service'>
           <div className='service__head'>
-            <h3>Plus</h3>
+            <h3>O que ofereço a mais?</h3>
           </div>
               <ul className='service_list'>
-                  <li>
-                  <p><BsCheck2 className='service__list-icon'/>  Fortes habilidades de comunicação com a capacidade de discutir qualquer problema com uma ampla variedade de indivíduos e grupos</p></li>
+                  <li><BsCheck2 className='service__list-icon'/>
+                  <p> Fortes habilidades de comunicação com a capacidade de discutir qualquer problema com uma ampla variedade de indivíduos e grupos</p></li>
               </ul>
               <ul className='service_list'>
-                  <li>
-                  <p><BsCheck2 className='service__list-icon'/> Capacidade de permanecer profissional em situações estressantes/disputas</p></li>
+                  <li><BsCheck2 className='service__list-icon'/>
+                  <p> Capacidade de permanecer profissional em situações estressantes/disputas</p></li>
               </ul>
               <ul className='service_list'>
-                  <li>
-                  <p><BsCheck2 className='service__list-icon'/>Experiência de trabalho em projetos</p></li>
-              </ul>          
-              <ul className='service_list'>
-                  <li>
-                  <p><BsCheck2 className='service__list-icon'/> Habilidades de comunicação oral e escrita em inglês</p></li>
-              </ul>   
-              <ul className='service_list'>
-                  <li>
-                  <p><BsCheck2 className='service__list-icon'/> Excelente disciplina, foco e atenção aos detalhes. </p></li>
-              </ul>                    
+                  <li><BsCheck2 className='service__list-icon'/>
+                  <p> Além de possuir forte experiência com a língua inglesa.</p></li>
+              </ul>             
               
           </article> 
           {/*End of this column*/}

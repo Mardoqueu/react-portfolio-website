@@ -88,7 +88,7 @@ const Services = () => {
 
           <article className='service'>
           <div className='service__head'>
-            <h3>Plus</h3>
+            <h3>O que ofereço a mais?</h3>
           </div>
               <ul className='service_list'>
                   <li>
@@ -104,7 +104,7 @@ const Services = () => {
               </ul>          
               <ul className='service_list'>
                   <li>
-                  <p><BsCheck2 className='service__list-icon'/> Habilidades de comunicação oral e escrita em inglês</p></li>
+                  <p><BsCheck2 className='service__list-icon'/> Boa lógica de programação.</p></li>
               </ul>   
               <ul className='service_list'>
                   <li>

@@ -26,7 +26,7 @@ const Services = () => {
               </ul>
               <ul className='service_list'>
                   <li>
-                  <p><BsCheck2 className='service__list-icon'/> Boa lógica de programação </p>
+                  <p><BsCheck2 className='service__list-icon'/> Habilidades de comunicação oral e escrita em inglês</p>
                   </li>
               </ul> 
               <ul className='service_list'>
@@ -49,7 +49,7 @@ const Services = () => {
           {/*End of this column*/}
           <article className='service'>
           <div className='service__head'>
-            <h3>Como eu posso colaborador? </h3>
+            <h3>Como eu posso colaborador</h3>
           </div>
               <ul className='service_list'>
                   <li>
@@ -88,7 +88,7 @@ const Services = () => {
 
           <article className='service'>
           <div className='service__head'>
-            <h3>Plus</h3>
+            <h3>O que ofereço a mais?</h3>
           </div>
               <ul className='service_list'>
                   <li>
@@ -104,11 +104,11 @@ const Services = () => {
               </ul>          
               <ul className='service_list'>
                   <li>
-                  <p><BsCheck2 className='service__list-icon'/> Habilidades de comunicação oral e escrita em inglês</p></li>
+                  <p><BsCheck2 className='service__list-icon'/> Boa lógica de programação.</p></li>
               </ul>   
               <ul className='service_list'>
                   <li>
-                  <p><BsCheck2 className='service__list-icon'/> Excelente disciplina, foco e atenção aos detalhes. </p></li>
+                  <p><BsCheck2 className='service__list-icon'/> Excelente disciplina, foco e atenção aos detalhes</p></li>
               </ul>                    
               
           </article> 

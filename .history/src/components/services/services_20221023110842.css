@@ -1,0 +1,13 @@
+.service__container{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.service__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}

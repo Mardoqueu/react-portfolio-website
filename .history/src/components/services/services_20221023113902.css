@@ -1,0 +1,18 @@
+.service__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.service {
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1 px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);    
+}
+
+.service:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}

@@ -88,7 +88,7 @@ const Services = () => {
 
           <article className='service'>
           <div className='service__head'>
-            <h3>Plus</h3>
+            <h3>O que ofereço a mais?</h3>
           </div>
               <ul className='service_list'>
                   <li>

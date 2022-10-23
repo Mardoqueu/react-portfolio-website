@@ -1,0 +1,6 @@
+.service__container{
+    display: grid;
+    grid-template-columns: repeat(3c)
+    gap: 2rem;
+}
+
