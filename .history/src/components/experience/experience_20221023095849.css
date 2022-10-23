@@ -1,0 +1,9 @@
+.experience__container{
+    display: grip;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experience__container > div {
+    background: var(color);
+}

@@ -33,9 +33,5 @@
 .experience__details {
     display: flex;
     gap: 1rem;
-}
 
-.experience_details-icon{
-    margin-top: 6px;
-    color: var(--color-primary);
 }
