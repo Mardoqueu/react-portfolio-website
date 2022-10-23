@@ -52,19 +52,10 @@
         margin: 0 auto;
     }
 
-    .experience__content{
-        padding: 1rem;
-    }
+    expe
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px){
-    .experience__container{
-        gap: 1rem;
-    }
 
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
 }

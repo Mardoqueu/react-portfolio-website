@@ -68,7 +68,7 @@ header {
 }
 
 
-@media screen and (max-width: 1017px){
+@media screen and (max-width: 1024px){
     header{
         height: 100vh;
     }
@@ -78,30 +78,6 @@ header {
         display: none;
     }
 }
-
-
-@media screen and (max-width: 1022px){
-    header{
-        height: 100vh;
-    }
-
-    .header__socials, 
-    .scroll__down{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1023px){
-    header{
-        height:100 vh;
-    }
-
-    .header__socials, 
-    .scroll__down{
-        display: none;
-    }
-}
-
 
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
