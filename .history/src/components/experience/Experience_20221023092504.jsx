@@ -65,12 +65,17 @@ const Experience = () => {
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>MongoDB</h4>
+                <h4>Mongo</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
                 <h4>Postman</h4>
+                <small className='text-light'>Experiência</small>
+              </article>
+              <article className='experience__details'>
+                <AiFillCheckCircle/>
+                <h4>React</h4>
                 <small className='text-light'>Experiência</small>
               </article>
             </div>

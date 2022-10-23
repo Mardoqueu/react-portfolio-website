@@ -73,6 +73,11 @@ const Experience = () => {
                 <h4>Postman</h4>
                 <small className='text-light'>Experiência</small>
               </article>
+              <article className='experience__details'>
+                <AiFillCheckCircle/>
+                <h4>React</h4>
+                <small className='text-light'>Experiência</small>
+              </article>
             </div>
           </div>
       </div>

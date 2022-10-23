@@ -43,34 +43,39 @@ const Experience = () => {
               </article>
             </div>
           </div>
-          {/*End of Frontend*/}
-          
+
+          //
           <div className='experience__backend'>
           <h3>Desenvolvimento Backend</h3>
             <div className='experience__content'>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>Firebase</h4>
+                <h4>HTML</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>MySQL</h4>
+                <h4>CSS</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>Java</h4>
+                <h4>JavaScript</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>MongoDB</h4>
+                <h4>Bootstrap</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>Postman</h4>
+                <h4>Tailwind</h4>
+                <small className='text-light'>Experiência</small>
+              </article>
+              <article className='experience__details'>
+                <AiFillCheckCircle/>
+                <h4>React</h4>
                 <small className='text-light'>Experiência</small>
               </article>
             </div>

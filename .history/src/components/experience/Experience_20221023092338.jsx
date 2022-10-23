@@ -50,27 +50,32 @@ const Experience = () => {
             <div className='experience__content'>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
+                <h4>Noje JS</h4>
+                <small className='text-light'>Experiência</small>
+              </article>
+              <article className='experience__details'>
+                <AiFillCheckCircle/>
                 <h4>Firebase</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>MySQL</h4>
+                <h4>My</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>Java</h4>
+                <h4>Bootstrap</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>MongoDB</h4>
+                <h4>Tailwind</h4>
                 <small className='text-light'>Experiência</small>
               </article>
               <article className='experience__details'>
                 <AiFillCheckCircle/>
-                <h4>Postman</h4>
+                <h4>React</h4>
                 <small className='text-light'>Experiência</small>
               </article>
             </div>
