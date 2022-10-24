@@ -15,41 +15,41 @@ const Testimonials = () => {
           <article className='testimonial'>
             <div className='client__avatar'>
             <img src={AVTR1} alt='avatar'/>
-            </div>
             <h5 className='client__name'>Ernest Achiver</h5>
             <small className='client__review'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </small>
+            </div>
           </article>
 
           <article className='testimonial'>
             <div className='client__avatar'>
             <img src={AVTR1} alt='avatar'/>
-            </div>
             <h5 className='client__name'>Ernest Achiver</h5>
             <small className='client__review'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </small>
+            </div>
           </article>
 
           <article className='testimonial'>
             <div className='client__avatar'>
             <img src={AVTR1} alt='avatar'/>
-            </div>
             <h5 className='client__name'>Ernest Achiver</h5>
             <small className='client__review'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </small>
+            </div>
           </article>
 
           <article className='testimonial'>
             <div className='client__avatar'>
             <img src={AVTR1} alt='avatar'/>
-            </div>
             <h5 className='client__name'>Ernest Achiver</h5>
             <small className='client__review'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </small>
+            </div>
           </article>
       </div>
 
