@@ -38,7 +38,8 @@ const data = [
   {
     avatar: AVTR4,
     name: 'Danrley Santos',
-    occupation: 'Software Engineer | Front End | React, React Native, Next.js, Typescript, and Node.js',
+    occupation: 'Software Engineer | Front End | React, React Native, Next.js, Typescript, and Node.js
+',
     review: 'Mardoqueu possui fortes habilidades em programação, lógica de programação e desenvolvimento de aplicações utilizando melhores práticas do mercado. Possui experiência em sala de aula e aptidão em resolver problemas.'
   }
 

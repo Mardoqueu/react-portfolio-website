@@ -20,7 +20,7 @@ const data = [
   {
   avatar: AVTR1,
   name: 'Heleno da Silva Souza',
-  occupation: 'Fullstack Software Engineer | Spring Boot | API REST | Hibernate | Nexus | Java | SQL',
+  occupation: '',
   review: 'Extremamente apaixonado pelo que faz, muito atento aos detalhes e competente. Além das suas habilidades e experiências curriculares, ele constrói confiança nas suas relações profissionais e conduz suas atribuições com total maestria e sempre em busca de inovações.. Leva a informação de forma clara e eficiente a todos os públicos e níveis da organização. É sempre um prazer para mim dividir um convívio profissional com a Mardoqueu.'
   },  
   {
@@ -32,13 +32,11 @@ const data = [
   {
     avatar: AVTR3,
     name: 'Kenny Wilker',
-    occupation: 'Developer | Java | Python | HTML | CSS | Javascript | Git/GitHub | Data Science & Analytics',
     review: 'Extremamente apaixonado pelo que faz, muito atento aos detalhes e competente. Além das suas habilidades e experiências curriculares, ele constrói confiança nas suas relações profissionais e conduz suas atribuições com total maestria e sempre em busca de inovações.. Leva a informação de forma clara e eficiente a todos os públicos e níveis da organização. É sempre um prazer para mim dividir um convívio profissional com a Mardoqueu.'
   },
   {
     avatar: AVTR4,
     name: 'Danrley Santos',
-    occupation: 'Software Engineer | Front End | React, React Native, Next.js, Typescript, and Node.js',
     review: 'Mardoqueu possui fortes habilidades em programação, lógica de programação e desenvolvimento de aplicações utilizando melhores práticas do mercado. Possui experiência em sala de aula e aptidão em resolver problemas.'
   }
 
@@ -65,7 +63,7 @@ const Testimonials = () => {
             <img src={avatar} alt={name}/>
             </div>
             <h5 className='client__name'>{name}</h5>
-            <h6 className='client__name'>{occupation}</h6>
+            <h6 className='client__name'>{name}</h6>
             <small className='client__review'>{review}</small>
           </SwiperSlide>)
             })
