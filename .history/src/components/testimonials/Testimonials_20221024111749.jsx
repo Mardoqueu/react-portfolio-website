@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpeg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/AVTR1.jpg'
+import AVTR2 from '../../assets/AVTR2.jpg'
+import AVTR3 from '../../assets/AVTR2.jpg'
+import AVTR4 from '../../assets/AVTR4.jpg'
 
 const data = [
   
@@ -39,14 +39,7 @@ const Testimonials = () => {
       <div className='container testimonials__container'>
           {
             data.map(({avatar, name, review}, index) => {
-              return (          
-          <article key={index} className='testimonial'>
-            <div className='client__avatar'>
-            <img src={avatar} alt={name}/>
-            </div>
-            <h5 className='client__name'>{name}</h5>
-            <small className='client__review'>{review}</small>
-          </article>)
+              re
             })
           }
 

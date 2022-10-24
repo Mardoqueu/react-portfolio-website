@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpeg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/AVTR1.jpg'
+import AVTR2 from '../../assets/AVTR2.jpg'
+import AVTR3 from '../../assets/AVTR2.jpg'
+import AVTR4 from '../../assets/AVTR4.jpg'
 
 const data = [
   
@@ -37,19 +37,45 @@ const Testimonials = () => {
       <h2>Recomendações</h2>
 
       <div className='container testimonials__container'>
-          {
-            data.map(({avatar, name, review}, index) => {
-              return (          
-          <article key={index} className='testimonial'>
+          <article className='testimonial'>
             <div className='client__avatar'>
-            <img src={avatar} alt={name}/>
+            <img src={AVTR1} alt='avatar'/>
             </div>
-            <h5 className='client__name'>{name}</h5>
-            <small className='client__review'>{review}</small>
-          </article>)
-            })
-          }
+            <h5 className='client__name'>Ernest Achiver</h5>
+            <small className='client__review'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </small>
+          </article>
 
+          <article className='testimonial'>
+            <div className='client__avatar'>
+            <img src={AVTR1} alt='avatar'/>
+            </div>
+            <h5 className='client__name'>Ernest Achiver</h5>
+            <small className='client__review'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </small>
+          </article>
+
+          <article className='testimonial'>
+            <div className='client__avatar'>
+            <img src={AVTR1} alt='avatar'/>
+            </div>
+            <h5 className='client__name'>Ernest Achiver</h5>
+            <small className='client__review'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </small>
+          </article>
+
+          <article className='testimonial'>
+            <div className='client__avatar'>
+            <img src={AVTR1} alt='avatar'/>
+            </div>
+            <h5 className='client__name'>Ernest Achiver</h5>
+            <small className='client__review'>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </small>
+          </article>
       </div>
 
 
