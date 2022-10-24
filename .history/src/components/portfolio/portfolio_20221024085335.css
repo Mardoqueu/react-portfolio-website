@@ -34,22 +34,29 @@
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+    .experience__container{
+        grid-template-columns: 1fr;
     }
 
-    .portfolio{
-        height: auto;
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
     }
 
+    .experience__content{
+        padding: 1rem;
+    }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+    .experience__container{
+        gap: 1rem;
     }
 
+    .experience__container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }
