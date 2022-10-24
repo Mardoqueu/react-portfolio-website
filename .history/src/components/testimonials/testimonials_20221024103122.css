@@ -12,19 +12,8 @@
 }
 
 .testimonial{
-    background: var(--color-bg-variant);
+    background: var(--color-primary-variant);
     text-align: center;
     padding: 2rem;
-    border-radius: 2rem;
-    user-select: none;
+    border-radius: ;
 }
-
-.client__review{
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
-}
-
-
