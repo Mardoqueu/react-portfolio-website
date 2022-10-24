@@ -41,7 +41,5 @@
         width: var(--container-width-sm);
     }
 
-    .client__review{
-        width: var(--container-width-sm);
-    }
+    .client__avatar
 }
