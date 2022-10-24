@@ -45,7 +45,7 @@ const data = [
   },
   {
     id: 6, 
-    image: IMG5,
+    image: IMG6,
     title: 'Help-desk Backend',
     github: 'https://github.com/Mardoqueu/helpdesk-backend',
     demo: 'https://tindog-lake.vercel.app/',

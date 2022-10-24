@@ -39,15 +39,15 @@ const data = [
   {
     id: 5, 
     image: IMG5,
-    title: 'Help-desk Frontend',
+    title: 'Help-desk Front',
     github: 'https://github.com/Mardoqueu/helpdesk-front',
     demo: 'https://helpdesk-front-tawny.vercel.app/login',
   },
   {
     id: 6, 
-    image: IMG5,
-    title: 'Help-desk Backend',
-    github: 'https://github.com/Mardoqueu/helpdesk-backend',
+    image: IMG6,
+    title: 'Tindog',
+    github: 'https://github.com/Mardoqueu/tindog',
     demo: 'https://tindog-lake.vercel.app/',
   }
 ]

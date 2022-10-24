@@ -32,23 +32,23 @@ const data = [
   {
     id: 4, 
     image: IMG4,
-    title: 'Twitter Clone',
-    github: 'https://github.com/Mardoqueu/twitter',
-    demo: 'https://twitter-peach.vercel.app/',
+    title: 'Google Clone',
+    github: 'https://github.com/Mardoqueu/google-v1',
+    demo: 'https://google-v1-teal.vercel.app/',
   },
   {
     id: 5, 
     image: IMG5,
-    title: 'Help-desk Frontend',
-    github: 'https://github.com/Mardoqueu/helpdesk-front',
-    demo: 'https://helpdesk-front-tawny.vercel.app/login',
+    title: 'Google Clone',
+    github: 'https://github.com/Mardoqueu/google-v1',
+    demo: 'https://google-v1-teal.vercel.app/',
   },
   {
     id: 6, 
-    image: IMG5,
-    title: 'Help-desk Backend',
-    github: 'https://github.com/Mardoqueu/helpdesk-backend',
-    demo: 'https://tindog-lake.vercel.app/',
+    image: IMG6,
+    title: 'Google Clone',
+    github: 'https://github.com/Mardoqueu/google-v1',
+    demo: 'https://google-v1-teal.vercel.app/',
   }
 ]
 
@@ -60,22 +60,16 @@ const Portfolio = () => {
       <h2>Portfólio </h2>
 
       <div className='container portfolio__container'>
-          {
-            data.map(({id, image, title, github, demo}) =>{
-              return(
-            <article key={id} className='portfolio__item'>
+          <article className='portfolio__item'>
             <div className='portfolio__item-image'>
-            <img src={image} alt={title}></img>
+            <img src={IMG1}></img>
             </div>
-                <h3>{title}</h3>
+                <h3>Google Clone</h3>
                 <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href='https://github.com/Mardoqueu/google-v1' className='btn' target='_blank'>Github</a>
+                <a href='https://google-v1-teal.vercel.app/' className='btn btn-primary' target='_blank'>Live Demo</a>
                 </div>
           </article>
-              )
-            })
-          }
 
 
 

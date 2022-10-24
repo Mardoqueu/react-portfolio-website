@@ -39,15 +39,15 @@ const data = [
   {
     id: 5, 
     image: IMG5,
-    title: 'Help-desk Frontend',
+    title: 'Help-desk',
     github: 'https://github.com/Mardoqueu/helpdesk-front',
     demo: 'https://helpdesk-front-tawny.vercel.app/login',
   },
   {
     id: 6, 
-    image: IMG5,
-    title: 'Help-desk Backend',
-    github: 'https://github.com/Mardoqueu/helpdesk-backend',
+    image: IMG6,
+    title: 'Tindog',
+    github: 'https://github.com/Mardoqueu/tindog',
     demo: 'https://tindog-lake.vercel.app/',
   }
 ]
@@ -63,14 +63,14 @@ const Portfolio = () => {
           {
             data.map(({id, image, title, github, demo}) =>{
               return(
-            <article key={id} className='portfolio__item'>
+            <article key={} className='portfolio__item'>
             <div className='portfolio__item-image'>
-            <img src={image} alt={title}></img>
+            <img src={image}></img>
             </div>
-                <h3>{title}</h3>
+                <h3>Google Clone</h3>
                 <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href='https://github.com/Mardoqueu/google-v1' className='btn' target='_blank'>Github</a>
+                <a href='https://google-v1-teal.vercel.app/' className='btn btn-primary' target='_blank'>Live Demo</a>
                 </div>
           </article>
               )
