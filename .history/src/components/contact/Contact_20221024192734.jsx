@@ -30,16 +30,11 @@ const Contact = () => {
               <AiOutlineWhatsApp/>
               <h4>WhatsApp</h4>
               <h5>+5599981228992</h5>
-              <a href='https://api.whatsapp.com/send?phone=5599981228992' target="_blank">Enviar uma mensagem</a>
+              <a href='https://api.whatsapp.com/send?phone=+5599981228992'>Enviar uma mensagem</a>
             </article>
           </div>
           {/* END OF CONTACT OPTIONS*/}
-          <form action=''>
-            <input type='text' name='name' placeholder='Nome' required></input>
-            <input type='email' name='email' placeholder='E-mail' required></input>
-            <textarea name='message' rows='7' placeholder='Mensagem' required></textarea>
-            <button type='submit' className='btn btn-primary'>Enviar Mensagem</button>
-          </form>
+          <form action=''></form>
       </div>
     </section>
   )

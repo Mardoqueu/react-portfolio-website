@@ -35,10 +35,7 @@ const Contact = () => {
           </div>
           {/* END OF CONTACT OPTIONS*/}
           <form action=''>
-            <input type='text' name='name' placeholder='Nome' required></input>
-            <input type='email' name='email' placeholder='E-mail' required></input>
-            <textarea name='message' rows='7' placeholder='Mensagem' required></textarea>
-            <button type='submit' className='btn btn-primary'>Enviar Mensagem</button>
+            <input type={}></input>
           </form>
       </div>
     </section>
