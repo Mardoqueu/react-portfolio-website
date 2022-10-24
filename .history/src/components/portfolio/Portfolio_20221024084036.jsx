@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
+import IMG6 from '../../assets/portfolio6.jpg'
 
 const Portfolio = () => {
   return (
@@ -62,21 +62,21 @@ const Portfolio = () => {
             <div className='portfolio__item-image'>
             <img src={IMG5}></img>
             </div>
-                <h3>Helpdesk</h3>
+                <h3>Helpdesk - Angula/Java</h3>
                 <div className='portfolio__item-cta'>
-                <a href='https://github.com/Mardoqueu/helpdesk-front' className='btn' target='_blank'>Github</a>
-                <a href='https://helpdesk-front-tawny.vercel.app/login' className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href='https://github.com' className='btn' target='_blank'>Github</a>
+                <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
                 </div>
           </article>
 
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
-            <img src={IMG6}></img>
+            <img src={IMG1}></img>
             </div>
-                <h3>Tindog</h3>
+                <h3>This is a portfolio item title</h3>
                 <div className='portfolio__item-cta'>
-                <a href='https://github.com/Mardoqueu/tindog' className='btn' target='_blank'>Github</a>
-                <a href='https://tindog-lake.vercel.app/' className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href='https://github.com' className='btn' target='_blank'>Github</a>
+                <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
                 </div>
           </article>
 

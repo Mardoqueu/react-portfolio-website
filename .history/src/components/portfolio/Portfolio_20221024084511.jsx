@@ -71,7 +71,7 @@ const Portfolio = () => {
 
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
-            <img src={IMG6}></img>
+            <img src={IMG1}></img>
             </div>
                 <h3>Tindog</h3>
                 <div className='portfolio__item-cta'>

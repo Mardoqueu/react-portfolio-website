@@ -28,6 +28,6 @@
 
 .portfolio__item-cta{
     display: flex;
-    gap: 1rem;
+    gap: rem;
     margin-bottom: 1rem;
 }
