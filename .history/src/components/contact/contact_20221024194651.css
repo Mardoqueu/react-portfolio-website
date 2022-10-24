@@ -12,11 +12,11 @@
 }
 
 .contact__option{
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid ;
     transform: var(--transition);
 }
 
@@ -50,5 +50,5 @@ input, textarea{
     background: transparent;
     border: 2px solid var(--color-primary-variant);
     resize: none;
-    color: var(--color-white);
+    color: v;
 }

@@ -1,0 +1,5 @@
+.container.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% ;
+}

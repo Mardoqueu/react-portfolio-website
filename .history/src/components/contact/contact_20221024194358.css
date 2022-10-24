@@ -12,11 +12,11 @@
 }
 
 .contact__option{
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid ;
     transform: var(--transition);
 }
 
@@ -34,21 +34,4 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
-}
-
-/* ==================== FORM ==================== */
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-}
-
-input, textarea{
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
-    color: var(--color-white);
 }
