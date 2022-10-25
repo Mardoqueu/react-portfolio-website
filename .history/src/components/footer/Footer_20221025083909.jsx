@@ -8,7 +8,7 @@ import {FiTwitter} from 'react-icons/fi'
 const Nav = () => {
   return (
     <footer>
-        <a href='#' className='footer__logo'>Mardoqueu Sousa</a>
+        <a href='#' className='footer__logo'>Mardoqueu</a>
 
         <ul className='permalinks'>
           <li><a href='#'>Home</a></li>

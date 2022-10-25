@@ -40,14 +40,3 @@ footer a {
     display: flex;
     border: 1px solid transparent;
 }
-
-.footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
-}
-
-.footer__copyright {
-    margin-bottom: 4rem;
-    color: var(--color-bg);
-}
