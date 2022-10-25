@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# My portfolio
+
+![Screenshot 2022-10-25 at 10-15-19 Portfolio](https://user-images.githubusercontent.com/11077068/197783245-caad9a53-8009-4562-a6e0-039757541ad9.png)
+
+Design and teacher: [EGATOR](https://www.youtube.com/c/EGATORTUTORIALS).
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
