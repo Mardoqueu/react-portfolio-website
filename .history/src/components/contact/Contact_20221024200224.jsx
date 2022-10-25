@@ -12,14 +12,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_vg7rha5', 'template_pgl7qzo', form.current, 'nWF4zILsQtefvfQm7')
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-
-      e.target.reset();
   };
 
 
@@ -53,7 +51,7 @@ const Contact = () => {
             </article>
           </div>
           {/* END OF CONTACT OPTIONS*/}
-          <form ref={form} onSubmit={sendEmail}>
+          <form action=''>
             <input type='text' name='name' placeholder='Nome' required></input>
             <input type='email' name='email' placeholder='E-mail' required></input>
             <textarea name='message' rows='7' placeholder='Mensagem' required></textarea>

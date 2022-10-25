@@ -4,26 +4,9 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {RiMessengerLine} from 'react-icons/ri'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import { useRef } from 'react'
-import emailjs from 'emailjs-com'
+import emailjs from ''
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_vg7rha5', 'template_pgl7qzo', form.current, 'nWF4zILsQtefvfQm7')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-
-      e.target.reset();
-  };
-
-
-
   return (
     <section id='contact'>
       <h5>Vamos conversar!</h5>
@@ -53,7 +36,7 @@ const Contact = () => {
             </article>
           </div>
           {/* END OF CONTACT OPTIONS*/}
-          <form ref={form} onSubmit={sendEmail}>
+          <form action=''>
             <input type='text' name='name' placeholder='Nome' required></input>
             <input type='email' name='email' placeholder='E-mail' required></input>
             <textarea name='message' rows='7' placeholder='Mensagem' required></textarea>
