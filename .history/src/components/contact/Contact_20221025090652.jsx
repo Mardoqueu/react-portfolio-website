@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_vg7rha5', 'template_pgl7qzo', form.current, 'nWF4zILsQtefvfQm7')
+    emailjs.sendForm('service_vg7rha5', 'template_pgl7qzo', form.current, nWF4zILsQtefvfQm7)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
