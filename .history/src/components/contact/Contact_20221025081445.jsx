@@ -6,13 +6,15 @@ import {AiOutlineWhatsApp} from 'react-icons/ai'
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
+const {REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY} = process.env.local;
+
 const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+    emailjs.sendForm({REACT_APP_SERVICE_ID}, {REACT_APP_TEMPLATE_ID}, form.current, )
       .then((result) => {
           console.log(result.text);
       }, (error) => {
