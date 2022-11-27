@@ -47,7 +47,7 @@ const data = [
   },
   {
     id: 6, 
-    image: IMG6,
+    image: IMG8,
     title: 'Help-desk Backend API',
     github: 'https://github.com/Mardoqueu/helpdesk-backend',
     demo: 'https://bookstore-mdq.herokuapp.com/',
