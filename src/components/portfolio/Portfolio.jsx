@@ -4,8 +4,10 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
+import IMG5 from '../../assets/portfolio6.png'
+import IMG6 from '../../assets/portfolio5.png'
+import IMG7 from '../../assets/portfolio7.png'
+import IMG8 from '../../assets/portfolio8.png'
 
 const data = [
   {
@@ -39,16 +41,37 @@ const data = [
   {
     id: 5, 
     image: IMG5,
+    title: 'Realtor Clone React',
+    github: 'https://github.com/Mardoqueu/realtor-clone-react',
+    demo: 'https://realtor-clone-react-blond.vercel.app/',
+  },
+  {
+    id: 6, 
+    image: IMG6,
+    title: 'Help-desk Backend API',
+    github: 'https://github.com/Mardoqueu/helpdesk-backend',
+    demo: 'https://bookstore-mdq.herokuapp.com/',
+  },  
+  {
+    id: 7, 
+    image: IMG6,
     title: 'Help-desk Frontend',
     github: 'https://github.com/Mardoqueu/helpdesk-front',
     demo: 'https://helpdesk-front-tawny.vercel.app/login',
   },
   {
-    id: 6, 
-    image: IMG5,
-    title: 'Help-desk Backend API',
-    github: 'https://github.com/Mardoqueu/helpdesk-backend',
-    demo: 'https://tindog-lake.vercel.app/',
+    id: 8, 
+    image: IMG7,
+    title: 'Portfolio Website',
+    github: 'https://github.com/Mardoqueu/react-portfolio-website',
+    demo: 'https://react-portfolio-website-indol.vercel.app/',
+  },
+  {
+    id: 9, 
+    image: IMG8,
+    title: 'BookStore Java API',
+    github: 'https://github.com/Mardoqueu/bookstore',
+    demo: 'https://bookstore-mdq.herokuapp.com/category',
   }
 ]
 
