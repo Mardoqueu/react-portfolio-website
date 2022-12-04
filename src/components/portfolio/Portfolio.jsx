@@ -72,6 +72,13 @@ const data = [
     title: 'BookStore Java API',
     github: 'https://github.com/Mardoqueu/bookstore',
     demo: 'https://bookstore-mdq.herokuapp.com/category',
+  },
+  {
+    id: 10, 
+    image: IMG8,
+    title: 'Testes com JUnit 5 Mockito e Spring Boot (REST APIs)',
+    github: 'https://github.com/Mardoqueu/cibernix-test-backend',
+    demo: 'https://cibernix-test-backend.herokuapp.com/user',
   }
 ]
 
