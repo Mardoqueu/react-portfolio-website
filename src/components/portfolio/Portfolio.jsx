@@ -48,17 +48,17 @@ const data = [
   },
   {
     id: 6, 
-    image: IMG8,
-    title: 'Help-desk Backend API',
-    github: 'https://github.com/Mardoqueu/helpdesk-backend',
-    demo: 'https://bookstore-mdq.herokuapp.com/',
+    image: IMG9,
+    title: 'Help Desk',
+    github: 'https://github.com/Mardoqueu/helpdesk-front',
+    demo: 'https://helpdesk-front-tawny.vercel.app/login',
   },  
   {
     id: 7, 
-    image: IMG6,
-    title: 'Help-desk Frontend',
-    github: 'https://github.com/Mardoqueu/helpdesk-front',
-    demo: 'https://helpdesk-front-tawny.vercel.app/login',
+    image: IMG8,
+    title: 'Help Desk Backend API',
+    github: 'https://github.com/Mardoqueu/helpdesk-backend',
+    demo: 'https://bookstore-mdq.herokuapp.com/',
   },
   {
     id: 8, 
@@ -70,14 +70,14 @@ const data = [
   {
     id: 9, 
     image: IMG9,
-    title: 'BookStore Frontend',
-    github: 'https://github.com/Mardoqueu/bookstore',
-    demo: 'https://bookstore-mdq.herokuapp.com/category',
+    title: 'Bookstore',
+    github: 'https://github.com/Mardoqueu/bookstore-front',
+    demo: 'https://bookstore-front-nivg.vercel.app/',
   },
   {
     id: 10, 
     image: IMG8,
-    title: 'BookStore Java API',
+    title: 'Bookstore Backend API',
     github: 'https://github.com/Mardoqueu/bookstore',
     demo: 'https://bookstore-mdq.herokuapp.com/category',
   },
@@ -91,7 +91,7 @@ const data = [
   {
     id: 12, 
     image: IMG9,
-    title: 'To do List with Angular',
+    title: 'To-Do List with Angular',
     github: 'https://github.com/Mardoqueu/todo-list-angular',
     demo: 'https://todo-list-angular-kz9o.vercel.app/',
   }
