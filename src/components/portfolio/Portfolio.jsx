@@ -8,6 +8,7 @@ import IMG5 from '../../assets/portfolio6.png'
 import IMG6 from '../../assets/portfolio5.png'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
+import IMG9 from '../../assets/portfolio9.png'
 
 const data = [
   {
@@ -68,17 +69,31 @@ const data = [
   },
   {
     id: 9, 
-    image: IMG8,
-    title: 'BookStore Java API',
+    image: IMG9,
+    title: 'BookStore Frontend',
     github: 'https://github.com/Mardoqueu/bookstore',
     demo: 'https://bookstore-mdq.herokuapp.com/category',
   },
   {
     id: 10, 
     image: IMG8,
+    title: 'BookStore Java API',
+    github: 'https://github.com/Mardoqueu/bookstore',
+    demo: 'https://bookstore-mdq.herokuapp.com/category',
+  },
+  {
+    id: 11, 
+    image: IMG8,
     title: 'Testes com JUnit 5 Mockito e Spring Boot (REST APIs)',
     github: 'https://github.com/Mardoqueu/cibernix-test-backend',
     demo: 'https://cibernix-test-backend.herokuapp.com/user',
+  },
+  {
+    id: 12, 
+    image: IMG9,
+    title: 'To do List with Angular',
+    github: 'https://github.com/Mardoqueu/todo-list-angular',
+    demo: 'https://todo-list-angular-kz9o.vercel.app/',
   }
 ]
 
@@ -106,10 +121,6 @@ const Portfolio = () => {
               )
             })
           }
-
-
-
-
       </div>
     </section>
   )
