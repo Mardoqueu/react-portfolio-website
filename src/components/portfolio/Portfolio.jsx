@@ -98,7 +98,7 @@ const data = [
   {
     id: 13, 
     image: IMG8,
-    title: 'Sistemas de ordens de serviço (REST APIs)',
+    title: 'Sistema de ordens de serviço (REST APIs)',
     github: 'https://github.com/Mardoqueu/os-api',
     demo: 'https://os-api.herokuapp.com/',
   }
