@@ -94,6 +94,13 @@ const data = [
     title: 'To-Do List with Angular',
     github: 'https://github.com/Mardoqueu/todo-list-angular',
     demo: 'https://todo-list-angular-kz9o.vercel.app/',
+  },
+  {
+    id: 13, 
+    image: IMG8,
+    title: 'Sistemas de ordens de serviço (REST APIs)',
+    github: 'https://github.com/Mardoqueu/os-api',
+    demo: 'https://os-api.herokuapp.com/',
   }
 ]
 
