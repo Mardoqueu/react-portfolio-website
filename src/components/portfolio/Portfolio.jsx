@@ -101,6 +101,13 @@ const data = [
     title: 'Sistema de ordens de serviço (REST APIs)',
     github: 'https://github.com/Mardoqueu/os-api',
     demo: 'https://os-api.herokuapp.com/',
+  },
+  {
+    id: 14, 
+    image: IMG9,
+    title: 'Angular Shopping',
+    github: 'https://github.com/Mardoqueu/shopping-angular',
+    demo: 'https://shoppingangular.vercel.app/products',
   }
 ]
 
