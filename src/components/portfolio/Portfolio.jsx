@@ -108,6 +108,13 @@ const data = [
     title: 'Angular Shopping',
     github: 'https://github.com/Mardoqueu/shopping-angular',
     demo: 'https://shoppingangular.vercel.app/products',
+  },  
+  {
+    id: 15, 
+    image: IMG9,
+    title: 'Angular E-commerce V2',
+    github: 'https://github.com/Mardoqueu/ecommerce-angular',
+    demo: 'https://ecommerce-angular-9tj1vw6v8-mardoqueu.vercel.app/',
   }
 ]
 
