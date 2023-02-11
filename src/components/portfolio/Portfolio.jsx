@@ -9,6 +9,7 @@ import IMG6 from '../../assets/portfolio5.png'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
 import IMG9 from '../../assets/portfolio9.png'
+import IMG10 from '../../assets/portfolio10.png'
 
 const data = [
   {
@@ -108,6 +109,13 @@ const data = [
     title: 'Angular Shopping',
     github: 'https://github.com/Mardoqueu/shopping-angular',
     demo: 'https://shoppingangular.vercel.app/products',
+  },  
+  {
+    id: 15, 
+    image: IMG10,
+    title: 'Angular E-commerce V2',
+    github: 'https://github.com/Mardoqueu/ecommerce-angular',
+    demo: 'https://ecommerce-angular-lju81yguv-mardoqueu.vercel.app/',
   }
 ]
 
