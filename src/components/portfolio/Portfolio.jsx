@@ -30,7 +30,7 @@ const data = [
     id: 3, 
     image: IMG3,
     title: 'Instagram Clone Next.js',
-    github: 'https://github.com/Mardoqueu/insta-v',
+    github: 'https://github.com/Mardoqueu/insta-v1',
     demo: 'https://insta-vercel.vercel.app/',
   },
   {
